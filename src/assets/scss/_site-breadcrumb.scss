@@ -1,0 +1,28 @@
+.site-breadcrumb {
+  &__list {
+    padding-left: 0;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    font-size: 0.875rem
+  }
+
+  &__item {
+    &:not(:last-of-type) {
+      a {
+        &:after {
+          content: '/';
+          display: block;
+          margin: 0 0.625rem;
+        }
+      }
+    }
+  }
+
+  a {
+    display: flex;
+    text-decoration: none;
+  }
+}

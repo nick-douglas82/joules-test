@@ -1,0 +1,22 @@
+.text-content {
+  text-align: center;
+  max-width: 62.5rem;
+  margin: 30px auto 0;
+
+  h1 {
+    font-weight: 800;
+  }
+
+  .readMoreLessBtn {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.site-navigation {
+  border-bottom: 1px solid var(--color-grey-light);
+  margin: 1.25rem 0;
+  width: 100%;
+
+  &__list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        background: none;
+        border-bottom: 2px solid var(--color-black);
+      }
+    }
+  }
+}
