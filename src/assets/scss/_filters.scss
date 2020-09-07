@@ -1,0 +1,27 @@
+.filters {
+  margin-top: 3.75rem;
+
+  &__wrapper {
+    border-bottom: 0.0625rem solid #d3d3d3;
+    border-top: 0.0625rem solid #d3d3d3;
+    padding: 1.125rem;
+  }
+
+  &__button {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    appearance: none;
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    &:not(:first-of-type) {
+      margin-left: 12.5rem;
+    }
+
+    &:hover {
+      color: var(--hover-state);
+      text-decoration: underline;
+    }
+  }
+}

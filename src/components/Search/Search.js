@@ -1,11 +1,11 @@
 import React from 'react'
-import Filter from './Filter';
+import Filters from './Filters';
 import Results from './Results';
 
 export default function Search() {
   return (
     <div>
-      <Filter />
+      <Filters />
       <Results />
     </div>
   )
