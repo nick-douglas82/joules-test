@@ -8,12 +8,13 @@
   }
 
   &__button {
-    font-size: 1.125rem;
-    text-transform: uppercase;
     appearance: none;
     background: none;
     border: 0;
     cursor: pointer;
+    font-size: 1.125rem;
+    padding: 0;
+    text-transform: uppercase;
 
     &:not(:first-of-type) {
       margin-left: 12.5rem;
