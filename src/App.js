@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { getProducts } from "./store/actions/products";
+import { getProducts } from "./store/products/actions/products";
 
 import './assets/app.scss';
 import SubNavigation from './components/Navigation/SubNavigation';

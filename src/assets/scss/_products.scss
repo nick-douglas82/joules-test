@@ -11,7 +11,14 @@
   display: flex;
   flex-direction: column;
   margin: 0 10px 1.25rem;
-  width: calc(33.333% - 1.25rem);
+
+  .layout__2x2 & {
+    width: calc(50% - 1.25rem);
+  }
+
+  .layout__3x3 & {
+    width: calc(33.333% - 1.25rem);
+  }
 
   &__image {
     height: 100%;
